@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+#main{
+
+}
+
+#logo{
+    padding-left: 3px;
+    font-family: Arial, Helvetica, sans-serif; /* in đậm*/
+    font-size: 15px;
+    margin-top: 20px;
+     margin-bottom: 10px; 
+    font-weight: 600; 
+    color: #33ccff;
+    display: block;
+
+}
+
+#header{
+    height: 46px;
+    background: linear-gradient(to top, #33ccff 0%, #66ffff 100%)
+
+}
+
+#header1{
+    text-align: center; /* căn giữa*/
+    font-family: Arial, Helvetica, sans-serif; /* in đậm*/
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    font-weight: 600; 
+    color: #52d1e7;
+    display: block;
+
+}
+
+#nav{
+
+}
+#nav li {
+    display: inline-block;  
+}
+
+#nav li a{
+    color: black;
+    text-decoration: none;  /*bỏ gạch chân */
+    line-height: 46px; /* căn chữ  ở giữ*/
+    padding: 0 10px;
+    display: inline-block;
+}
+
+#nav li:hover a{
+    color: #050505;
+    background-color: rgb(129, 216, 219);
+
+}
+
+#content{
+
+}
+
+#col-45 {
+    display: inline-block;
+    width: 48%;
+    margin-left: 18px;
+    border: 1px solid gray;
+  }
+#detail {
+    padding-left: 10px;
+    height: 46px;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   margin: 5px 5px;
+   line-height: 46px;
+    margin-bottom: 10px; 
+    font-weight: 600; 
+    color: white;
+    display: block;
+    background-color: #33ccff
+
+  }
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  label {
+    padding-top: 12px;
+    display: inline-block;
+    padding-left: 10px;
+  }
+#col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+#col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+    /* box-shadow: 0px 1px 0px  rgb(172, 169, 169); */
+  }
+  
+  input[type="radio"] {
+    width: initial;
+  }
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: var(--background-color);
+    margin: 10px 15px;
+    cursor: pointer;
+    width: 100px;
+    display: inline;
+    float: left;
+  }
+  input[type="submit"] {
+    margin-left: 42%;
+  }
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: var(--mainColor);
+  }
+  .required::after {
+    content: " *";
+    color: red;
+  }
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7c7979;
+    color: white;
+    text-align: center;
+
+}
